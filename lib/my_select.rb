@@ -1,3 +1,9 @@
 def my_select(collection)
- # your code here!
+ if blockgiven
+   i = 0
+   newarr = []
+   collection.each {|x| newarr << yield(x)}
+     newarr
+   end
+
 end
