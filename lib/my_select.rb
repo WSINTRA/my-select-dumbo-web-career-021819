@@ -4,6 +4,7 @@ def my_select(collection)
    collection.each do |x|
      retar << yield x
    end
+   retar
  end
- retar
+
 end
