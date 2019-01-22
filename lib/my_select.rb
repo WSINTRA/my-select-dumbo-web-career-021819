@@ -1,7 +1,7 @@
 def my_select(array)
  if block_given?
-     array.yield(each) do |item|
-       item
+     array.each do |item|
+       item.yield(item)
      end
 
    end
