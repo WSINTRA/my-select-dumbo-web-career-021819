@@ -4,6 +4,7 @@ def my_select(array)
      array.each do |item|
       if yield(item)
         newArray << item
+      end
      end
    newArray
    end
