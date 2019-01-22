@@ -1,4 +1,4 @@
-def my_select(collection)
+def my_select(array)
  if block_given?
    new_array = []
      array.each do |item|
